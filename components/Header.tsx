@@ -95,7 +95,7 @@ function Header() {
 
           {suggestion && !loading
             ? suggestion
-            : "GPT is summarising your tasks for the day ..."}
+            : "GPT is summarising your tasks for the day, powered by dola ..."}
         </p>
       </div>
     </header>
