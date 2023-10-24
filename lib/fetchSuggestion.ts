@@ -34,7 +34,7 @@ const fetchSuggestion = async (board: Board): Promise<string> => {
   try {
     // Format todos using the formatTodoForAI function
     const todos = formatTodoForAI(board);
-    console.log('Formatted todos to send:', todos);
+    console.log('Format todos to send:', todos);
 
     // Make the API request
     const response = await fetch('/api/generateSummary', {
